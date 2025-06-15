@@ -1,182 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Patinetes Express - Tu mejor opción en movilidad</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Patines</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #e6f2ff;
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
             margin: 0;
-            color: #333;
+            padding: 0;
         }
         header {
-            background-color: #007acc;
+            background: #0074D9;
             color: white;
-            padding: 25px 20px;
+            padding: 20px;
             text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
         }
         nav {
-            background-color: #005ea2;
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            padding: 12px 0;
+            background: #005fa3;
+            padding: 10px;
+            text-align: center;
         }
         nav a {
-            color: #cce6ff;
+            color: white;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1em;
+            margin: 0 15px;
         }
-        nav a:hover {
-            color: #fff;
-            border-bottom: 2px solid white;
+        .content {
+            padding: 20px;
         }
-        main {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        section {
-            margin-bottom: 50px;
-            background: white;
-            padding: 25px 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgb(0 122 204 / 0.15);
-        }
-        section h2 {
-            color: #007acc;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #007acc;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        .testimonio {
-            background: #f0f8ff;
+        .patin-info {
+            background: #e0f7ff;
             padding: 15px;
-            margin-top: 15px;
-            border-left: 5px solid #007acc;
-            font-style: italic;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
         footer {
+            background: #0074D9;
+            color: white;
             text-align: center;
-            background: #007acc;
-            color: white;
-            padding: 15px 10px;
-            font-size: 0.9em;
-        }
-        .btn-contacto {
-            background-color: #007acc;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            font-weight: 700;
-            font-size: 1em;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .btn-contacto:hover {
-            background-color: #005ea2;
-        }
-        form label {
-            display: block;
-            margin-top: 15px;
-            font-weight: 600;
-        }
-        form input, form textarea {
-            width: 100%;
-            padding: 8px;
-            margin-top: 6px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            resize: vertical;
+            padding: 10px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Patinetes Express</h1>
-        <p>Tu mejor opción en movilidad urbana</p>
-    </header>
-    <nav>
-        <a href="#porque">¿Por qué elegirnos?</a>
-        <a href="#variedad">Variedad de Modelos</a>
-        <a href="#testimonios">Testimonios</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
 
-    <main>
-        <section id="porque">
-            <h2>¿Por qué somos la mejor empresa de patinetes?</h2>
-            <p>En Patinetes Express nos destacamos por:</p>
-            <ul>
-                <li><strong>Calidad garantizada:</strong> Solo trabajamos con las mejores marcas y materiales.</li>
-                <li><strong>Atención personalizada:</strong> Te ayudamos a elegir el patinete que mejor se adapta a ti.</li>
-                <li><strong>Precios competitivos:</strong> La mejor relación calidad-precio del mercado.</li>
-                <li><strong>Soporte técnico 24/7:</strong> Estamos para ti antes y después de la compra.</li>
-                <li><strong>Entrega rápida:</strong> Envíos express en menos de 48 horas a todo el país.</li>
-            </ul>
-        </section>
+<header>
+    <h1>Mundo Patines</h1>
+    <p>¡Deslízate hacia la diversión!</p>
+</header>
 
-        <section id="variedad">
-            <h2>Variedad de Modelos</h2>
-            <p>Contamos con una amplia gama de patinetes para todos los gustos y necesidades:</p>
-            <ul>
-                <li><strong>Patinetes eléctricos:</strong> Potencia y autonomía para desplazarte sin esfuerzo.</li>
-                <li><strong>Patinetes plegables:</strong> Perfectos para llevar en transporte público o guardarlos en espacios pequeños.</li>
-                <li><strong>Patinetes infantiles:</strong> Diseñados para la seguridad y diversión de los más pequeños.</li>
-                <li><strong>Patinetes todo terreno:</strong> Para los aventureros que buscan explorar más allá de la ciudad.</li>
-            </ul>
-            <p>Visita nuestra <a href="https://www.patinetesexpress.com/catalogo" target="_blank" rel="noopener">tienda online</a> para descubrir todos los modelos disponibles.</p>
-        </section>
+<nav>
+    <a href="#tipos">Tipos de Patines</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#comprar">Dónde Comprar</a>
+</nav>
 
-        <section id="testimonios">
-            <h2>Testimonios</h2>
-            <div class="testimonio">
-                <p>"Excelente atención y el patinete eléctrico funciona de maravilla. Muy recomendados."</p>
-                <p><strong>- Laura M.</strong></p>
-            </div>
-            <div class="testimonio">
-                <p>"Me encanta la variedad y la rapidez en la entrega. Compré un patinete plegable y es perfecto para mi día a día."</p>
-                <p><strong>- Carlos R.</strong></p>
-            </div>
-            <div class="testimonio">
-                <p>"Los técnicos me ayudaron a resolver un problema rápidamente, gran servicio postventa."</p>
-                <p><strong>- Ana G.</strong></p>
-            </div>
-        </section>
+<div class="content">
+    <section id="tipos" class="patin-info">
+        <h2>Tipos de Patines</h2>
+        <p>Existen varios tipos de patines: en línea (roller), clásicos (cuatro ruedas), artísticos y de velocidad. Cada uno tiene su estilo y finalidad.</p>
+    </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Tienes alguna pregunta o quieres asesoría personalizada? Escríbenos:</p>
-            <form action="#" method="POST" onsubmit="alert('Gracias por contactarnos. Pronto te responderemos.'); return false;">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required />
+    <section id="beneficios" class="patin-info">
+        <h2>Beneficios de Patinar</h2>
+        <p>Patinar mejora el equilibrio, fortalece las piernas, quema calorías y es muy divertido. ¡Ideal para todas las edades!</p>
+    </section>
 
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required />
+    <section id="comprar" class="patin-info">
+        <h2>¡Compra tus Patines!</h2>
+        <p>Visita nuestras tiendas recomendadas:</p>
+        <ul>
+            <li><a href="https://www.decathlon.es" target="_blank">Decathlon</a></li>
+            <li><a href="https://www.amazon.es" target="_blank">Amazon</a></li>
+            <li><a href="https://www.patinesonline.es" target="_blank">Patines Online</a></li>
+        </ul>
+    </section>
+</div>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+<footer>
+    <p>© 2025 Mundo Patines - ¡Rueda con estilo!</p>
+</footer>
 
-                <button type="submit" class="btn-contacto">Enviar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        &copy; 2025 Patinetes Express. Todos los derechos reservados.
-    </footer>
 </body>
 </html>
-
