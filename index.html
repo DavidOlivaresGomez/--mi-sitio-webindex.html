@@ -1,17 +1,182 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mis desafíos en tu raza</title>
-  </head>
-  <body>
-    <h1>Mis desafíos en Khan Academy</h1>
-    <p>Estos son los que más me gustan:</p>
-    <ul>
-      <li>Suma fácil</li>
-      <li>Restas pequeñas</li>
-      <li>Multiplicación con dibujos</li>
-      <li>Contar figuras</li>
-    </ul>
-    <p>¡Me gusta mucho aprender!</p>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Patinetes Express - Tu mejor opción en movilidad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #e6f2ff;
+            margin: 0;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #005ea2;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 12px 0;
+        }
+        nav a {
+            color: #cce6ff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #fff;
+            border-bottom: 2px solid white;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+            background: white;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgb(0 122 204 / 0.15);
+        }
+        section h2 {
+            color: #007acc;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .testimonio {
+            background: #f0f8ff;
+            padding: 15px;
+            margin-top: 15px;
+            border-left: 5px solid #007acc;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            background: #007acc;
+            color: white;
+            padding: 15px 10px;
+            font-size: 0.9em;
+        }
+        .btn-contacto {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-weight: 700;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-contacto:hover {
+            background-color: #005ea2;
+        }
+        form label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patinetes Express</h1>
+        <p>Tu mejor opción en movilidad urbana</p>
+    </header>
+    <nav>
+        <a href="#porque">¿Por qué elegirnos?</a>
+        <a href="#variedad">Variedad de Modelos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="porque">
+            <h2>¿Por qué somos la mejor empresa de patinetes?</h2>
+            <p>En Patinetes Express nos destacamos por:</p>
+            <ul>
+                <li><strong>Calidad garantizada:</strong> Solo trabajamos con las mejores marcas y materiales.</li>
+                <li><strong>Atención personalizada:</strong> Te ayudamos a elegir el patinete que mejor se adapta a ti.</li>
+                <li><strong>Precios competitivos:</strong> La mejor relación calidad-precio del mercado.</li>
+                <li><strong>Soporte técnico 24/7:</strong> Estamos para ti antes y después de la compra.</li>
+                <li><strong>Entrega rápida:</strong> Envíos express en menos de 48 horas a todo el país.</li>
+            </ul>
+        </section>
+
+        <section id="variedad">
+            <h2>Variedad de Modelos</h2>
+            <p>Contamos con una amplia gama de patinetes para todos los gustos y necesidades:</p>
+            <ul>
+                <li><strong>Patinetes eléctricos:</strong> Potencia y autonomía para desplazarte sin esfuerzo.</li>
+                <li><strong>Patinetes plegables:</strong> Perfectos para llevar en transporte público o guardarlos en espacios pequeños.</li>
+                <li><strong>Patinetes infantiles:</strong> Diseñados para la seguridad y diversión de los más pequeños.</li>
+                <li><strong>Patinetes todo terreno:</strong> Para los aventureros que buscan explorar más allá de la ciudad.</li>
+            </ul>
+            <p>Visita nuestra <a href="https://www.patinetesexpress.com/catalogo" target="_blank" rel="noopener">tienda online</a> para descubrir todos los modelos disponibles.</p>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonio">
+                <p>"Excelente atención y el patinete eléctrico funciona de maravilla. Muy recomendados."</p>
+                <p><strong>- Laura M.</strong></p>
+            </div>
+            <div class="testimonio">
+                <p>"Me encanta la variedad y la rapidez en la entrega. Compré un patinete plegable y es perfecto para mi día a día."</p>
+                <p><strong>- Carlos R.</strong></p>
+            </div>
+            <div class="testimonio">
+                <p>"Los técnicos me ayudaron a resolver un problema rápidamente, gran servicio postventa."</p>
+                <p><strong>- Ana G.</strong></p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o quieres asesoría personalizada? Escríbenos:</p>
+            <form action="#" method="POST" onsubmit="alert('Gracias por contactarnos. Pronto te responderemos.'); return false;">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit" class="btn-contacto">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Patinetes Express. Todos los derechos reservados.
+    </footer>
+</body>
 </html>
+
